@@ -3,7 +3,125 @@
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+   --witfont: rgb(255, 255, 255);
+   --schaduwnav: rgba(0, 0, 0, 0.781);
+   --schaduwbutton:  rgba(0, 0, 0, 0.568);
+
+   --roodhomepagina: rgb(255, 0, 0, 0.70);
+   --roodhomepaginahover: rgb(255, 0, 0);
+
+   --oranjehomepagina: rgb(244, 70, 17, 0.75);
+   --oranjehomepaginahover: rgb(244, 70, 17);
+
+   --geelhomepagina: rgb(255, 255, 0, 0.70);
+   --geelhomepaginahover: rgb(255, 255, 0);
+
+   --groenhomepagina: rgb(0, 255, 0, 0.65);
+   --groenhomepaginahover: rgb(0, 255, 0);
+
+   --blauwhomepagina: rgba(0, 0, 255, 0.753);
+   --blauwhomepaginahover: rgb(0, 0, 255);
+
+   --indigohomepagina: rgba(111, 0, 255, 0.80);
+   --indigohomepaginahover: rgb(111, 0, 255);
+
+   --violethomepagina: rgba(157, 0, 255, 0.80);
+   --violethomepaginahover: rgb(157, 0, 255);
+
+   --achterextranav: rgba(255, 255, 255, 0.418);
+
+   --footer: rgba(101, 101, 101, 76);
+
+   --achterlogo: rgba(112, 112, 112, 0.637);
+
+   --achtercontact: rgba(112, 112, 112, 0.418);
+
+   --rodebutton:  rgba(242,55,11,100%);
+   --geelknop: rgb(242,242,13,100%);
+   --groenknop: rgb(51,255,51,100%);
+   --blauwknop: rgb(0,17,255,100%);
+   --groeneagendakleur: rgba(64, 246, 64, 0.541);
+   --indigoknop: rgb(121,32,254,89%);
+   --violetknop: rgb(138,46,205,100%);
+   --grijzeknop: rgb(96,95,95,100%);
+
+
+   --oranjeknophome:rgba(244,70,17,0.75);
+ --oranjeknophomehover:rgba(244,70,17);
+
+ --geelknophome:rgba(255,255,0,0.7);
+ --geekknophomehover:rgba(255,255,0);
+ --geleheaderkleur:rgba(255,255,0,89%);
+ --geleachtergrondkleur:rgba(255,255,0,0.37);
+ --gelebuttonkleur:rgba(242,242,13,100%);
+ --geleachtergrondtitelkleur:rgba(242,242,13,49%);
+ --gelepijlkleur:rgba(245,245,80,100%);
+ --gelecardachtergrondkleur:rgba(242,242,13,49%);
+ --gelecardtagkleur:rgba(255,255,161,100%);
+
+
+ --groenknophome:rgba(0,255,0.065);
+ --groenknophomehover:rgba(0.255.0);
+ --groeneheaderkleur:rgba(0,255,0,89%);
+ --groeneachtergrondkleur:rgba(51,255,51,37%);
+ --groenebuttonkleur:rgba(51,255,51,100%);
+ --groenachtergrondtitelkleur:rgba(65,246,65,49%);
+ --groendagendakleur:rgba(64,246,64,35%);
+ --groenebovenkantcardkleur:rgba(0,213,0,100%);
+ --groeneachtergrondcardkleur:rgba(110,227,110,100%);
+ --groenepijlkleur:rgba(37,217,37,100%);
+ --groeneikneemmeekleur:rgba(64,155,64,100%);
+
+
+
+ --blauwknophome:rgba(0,0,255,0.753);
+ --blauwknophomehover:rgba(0,0,255);
+ --blauweheaderkleur:rgba(0,17,255,100%);
+ --blauweachtergrondkleur:rgba(34,48,241,40%);
+ --blauwebuttonkleur:rgba(0,17,255,89%);
+ --blauweachtertitelkleur:rgba(94,104,235,100%);
+ --blauwebovenkantcardkleur:rgba(0,12,194,100%);
+ --blauweachtergrondcardkleur:rgba(91,99,228,100%);
+ --blauwepijlkleur:rgba(0,11,190,100%);
+ --blauweikneemmekleur:rgba(0,9,147,100%);
+
+
+
+ --indigoknophome:rgba(111,0,255,0.8);
+ --indigoknophomehover:rgba(111,0,255);
+ --indigoheaderkleur:rgba(121,32,254,100%);
+ --indigoachtergrondkleur:rgba(34,48,241,40%);
+ --indigobuttonkleur:rgba(121,32,254,89%);
+ --indigoachtertitelkleur:rgba(121,32,254,49%);
+ --indigopijlkleur:rgba(91,20,198,100%);
+
+
+
+ --violetknophome:rgba(157,0,255,0.8);
+ --violetknophomehover:rgba(157,0,255);
+
+ --schaduwhome:rgba(0,0,0,0.568);
+
+ --achterextranav:rgba(255,255,255,0.418);
+ 
+ --footerkleur:rgba(101,101,101,0.76);
+
+ --achterlogokleur:rgba(112,112,11,0.637);
+ --achtergrondlogokleur2:rgba(255,255,255,36%);
+
+ --invulveldkleur:rgba(255,255,255,100%);
+
+ --grijsheaderkleur:rgba(137,137,137,65%);
+ --grijsachtergrondkleur:rgba(228,228,228,100%);
+ --grijzebovenkantcardkleur:rgba(137,137,137,100%);
+ --grijzeachtergrondcardkleur:rgba(153,153,153,100%);
+ --grijzeachtertitelkleur:rgba(137,137,137,100%);
+ --grijzecontactachtergrondkleur:rgba(137,137,137,100%);
+ --grijzeachtertekstkleur:rgba(205,205,205,100%);
+ --grijzebuttonkleur:rgba(96,95,95,100%);
+
+
+}
 
   /**
    * Layout
@@ -13,14 +131,11 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
+  --eerstefont: "Marvelous Sans Demo";
+  --tweedefont: "Nanum Brush Script";
+  --derdefont: "Microsoft Yi Baiti";
+  --vierdefont: "SimSun-ExtB"
 
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
 }
 
 

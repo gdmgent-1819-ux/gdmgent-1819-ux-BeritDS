@@ -1,0 +1,48 @@
+h3{
+    font-size: 30px
+}
+.forms{
+    display:flex;
+    font-family: "Nanum Brush Script";
+    font-size: 20px
+}
+
+.inschrijven{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border:solid lightgrey 1px;
+    margin-right:50px; 
+    padding: 50px
+}
+
+.ouderraad{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border:solid lightgrey 1px;
+    margin-right:50px; 
+    padding: 50px
+}
+
+.afspraak{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border:solid lightgrey 1px;
+    margin-right:50px; 
+    padding: 50px
+}
+
+
+#uwnaam,#naamdochterzoon,#start,#mail,#tel,#wiepraten,#meeting-time{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.bullet{
+    text-align:center;
+}

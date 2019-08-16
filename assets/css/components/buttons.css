@@ -1,0 +1,356 @@
+.buttons {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.button1,
+.button2,
+.button3,
+.button4,
+.button5,
+.button6,
+.button7,
+.button8,
+.button9,
+.button10 {
+    margin-top: 15px
+}
+
+.button1 {
+    background-color: var(--rodebutton);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--rodebutton)
+}
+
+.button1:hover {
+    font-size: 27px
+}
+
+.button2 {
+    background-color: var(--rodebutton);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--rodebutton)
+}
+
+.button2:hover {
+    font-size: 27px
+}
+
+.button3 {
+    background-color: var(--geelknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 45px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--geelknop)
+}
+
+.button3:hover {
+    font-size: 47px
+}
+
+.button3 {
+    background-color: var(--geelknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 45px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--geelknop)
+}
+
+.button3:hover {
+    font-size: 47px
+}
+
+.button4 {
+    background-color: var(--geelknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 45px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--geelknop)
+}
+
+.button4:hover {
+    font-size: 47px
+}
+
+.button5 {
+    background-color: var(--geelknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 40px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--geelknop)
+}
+
+.button5:hover {
+    font-size: 42px
+}
+
+.button6 {
+    background-color: var(--groenknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--groenknop)
+}
+
+.button6:hover {
+    font-size: 32px
+}
+
+.button7 {
+    background-color: var(--groenknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--groenknop)
+}
+
+.button7:hover {
+    font-size: 32px
+}
+
+.button8 {
+    background-color: var(--groenknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--groenknop)
+}
+
+.button8:hover {
+    font-size: 32px
+}
+
+.button9 {
+    background-color: var(--groeneagendakleur);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    width: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 0px var(--groeneagendakleur)
+}
+
+.button9:hover {
+    font-size: 32px
+}
+
+.button10 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button10:hover {
+    font-size: 32px
+}
+
+.button11 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button11:hover {
+    font-size: 32px
+}
+
+.button12 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button12:hover {
+    font-size: 32px
+}
+
+.button13 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button13:hover {
+    font-size: 32px
+}
+
+.button14 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button14:hover {
+    font-size: 32px
+}
+
+.button15 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button15:hover {
+    font-size: 32px
+}
+
+.button16 {
+    background-color: var(--indigoknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 40px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--indigoknop);
+    margin-top: 15px
+}
+
+.button16:hover {
+    font-size: 42px
+}
+
+.button17 {
+    background-color: var(--indigoknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 40px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--indigoknop);
+    margin-top: 15px
+}
+
+.button17:hover {
+    font-size: 42px
+}
+
+.button18 {
+    background-color: var(--violetknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--violetknop);
+    margin-top: 15px
+}
+
+.button18:hover {
+    font-size: 27px
+}
+
+.button19 {
+    background-color: var(--grijzeknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--grijzeknop);
+    margin-top: 15px
+}
+
+.button19:hover {
+    font-size: 27px
+}

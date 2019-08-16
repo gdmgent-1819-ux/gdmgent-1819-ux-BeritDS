@@ -1,17 +1,1234 @@
+:root {
+    /**
+     * Colour palette
+     */
+    --witfont: rgb(255, 255, 255);
+    --schaduwnav: rgba(0, 0, 0, 0.781);
+    --schaduwbutton: rgba(0, 0, 0, 0.568);
+
+    --roodhomepagina: rgb(255, 0, 0, 0.70);
+    --roodhomepaginahover: rgb(255, 0, 0);
+
+    --oranjehomepagina: rgb(244, 70, 17, 0.75);
+    --oranjehomepaginahover: rgb(244, 70, 17);
+
+    --geelhomepagina: rgb(255, 255, 0, 0.70);
+    --geelhomepaginahover: rgb(255, 255, 0);
+
+    --groenhomepagina: rgb(0, 255, 0, 0.65);
+    --groenhomepaginahover: rgb(0, 255, 0);
+
+    --blauwhomepagina: rgba(0, 0, 255, 0.753);
+    --blauwhomepaginahover: rgb(0, 0, 255);
+
+    --indigohomepagina: rgba(111, 0, 255, 0.80);
+    --indigohomepaginahover: rgb(111, 0, 255);
+
+    --violethomepagina: rgba(157, 0, 255, 0.80);
+    --violethomepaginahover: rgb(157, 0, 255);
+
+    --achterextranav: rgba(255, 255, 255, 0.418);
+
+    --footer: rgba(101, 101, 101, 76);
+
+    --achterlogo: rgba(112, 112, 112, 0.637);
+
+    --achtercontact: rgba(112, 112, 112, 0.418);
+
+    --rodebutton: rgba(242, 55, 11, 100%);
+    --geelknop: rgb(242, 242, 13, 100%);
+    --groenknop: rgb(51, 255, 51, 100%);
+    --blauwknop: rgb(0, 17, 255, 100%);
+    --groeneagendakleur: rgba(64, 246, 64, 0.541);
+    --indigoknop: rgb(121, 32, 254, 89%);
+    --violetknop: rgb(138, 46, 205, 100%);
+    --grijzeknop: rgb(96, 95, 95, 100%);
+
+
+    --oranjeknophome: rgba(244, 70, 17, 0.75);
+    --oranjeknophomehover: rgba(244, 70, 17);
+
+    --geelknophome: rgba(255, 255, 0, 0.7);
+    --geelknophomehover: rgba(255, 255, 0);
+    --geleheaderkleur: rgba(255, 255, 0, 89%);
+    --geleachtergrondkleur: rgba(255, 255, 0, 0.37);
+    --gelebuttonkleur: rgba(242, 242, 13, 100%);
+    --geleachtergrondtitelkleur: rgba(242, 242, 13, 49%);
+    --gelepijlkleur: rgba(245, 245, 80, 100%);
+    --gelecardachtergrondkleur: rgba(242, 242, 13, 49%);
+    --gelecardtagkleur: rgba(255, 255, 161, 100%);
+
+
+    --groenknophome: rgba(0, 255, 0.065);
+    --groenknophomehover: rgba(0.255.0);
+    --groeneheaderkleur: rgba(0, 255, 0, 89%);
+    --groeneachtergrondkleur: rgba(51, 255, 51, 37%);
+    --groenebuttonkleur: rgba(51, 255, 51, 100%);
+    --groenachtergrondtitelkleur: rgba(65, 246, 65, 49%);
+    --groendagendakleur: rgba(64, 246, 64, 35%);
+    --groenebovenkantcardkleur: rgba(0, 213, 0, 100%);
+    --groeneachtergrondcardkleur: rgba(110, 227, 110, 100%);
+    --groenepijlkleur: rgba(37, 217, 37, 100%);
+    --groeneikneemmeekleur: rgba(64, 155, 64, 100%);
+
+
+
+    --blauwknophome: rgba(0, 0, 255, 0.753);
+    --blauwknophomehover: rgba(0, 0, 255);
+    --blauweheaderkleur: rgba(0, 17, 255, 100%);
+    --blauweachtergrondkleur: rgba(34, 48, 241, 40%);
+    --blauwebuttonkleur: rgba(0, 17, 255, 89%);
+    --blauweachtertitelkleur: rgba(94, 104, 235, 100%);
+    --blauwebovenkantcardkleur: rgba(0, 12, 194, 100%);
+    --blauweachtergrondcardkleur: rgba(91, 99, 228, 100%);
+    --blauwepijlkleur: rgba(0, 11, 190, 100%);
+    --blauweikneemmekleur: rgba(0, 9, 147, 100%);
+
+
+
+    --indigoknophome: rgba(111, 0, 255, 0.8);
+    --indigoknophomehover: rgba(111, 0, 255);
+    --indigoheaderkleur: rgba(121, 32, 254, 100%);
+    --indigoachtergrondkleur: rgba(34, 48, 241, 40%);
+    --indigobuttonkleur: rgba(121, 32, 254, 89%);
+    --indigoachtertitelkleur: rgba(121, 32, 254, 49%);
+    --indigopijlkleur: rgba(91, 20, 198, 100%);
+
+
+
+    --violetknophome: rgba(157, 0, 255, 0.8);
+    --violetknophomehover: rgba(157, 0, 255);
+
+    --schaduwhome: rgba(0, 0, 0, 0.568);
+
+    --achterextranav: rgba(255, 255, 255, 0.418);
+
+    --footerkleur: rgba(101, 101, 101, 0.76);
+
+    --achterlogokleur: rgba(112, 112, 11, 0.637);
+    --achtergrondlogokleur2: rgba(255, 255, 255, 36%);
+
+    --invulveldkleur: rgba(255, 255, 255, 100%);
+
+    --grijsheaderkleur: rgba(137, 137, 137, 65%);
+    --grijsachtergrondkleur: rgba(228, 228, 228, 100%);
+    --grijzebovenkantcardkleur: rgba(137, 137, 137, 100%);
+    --grijzeachtergrondcardkleur: rgba(153, 153, 153, 100%);
+    --grijzeachtertitelkleur: rgba(137, 137, 137, 100%);
+    --grijzecontactachtergrondkleur: rgba(137, 137, 137, 100%);
+    --grijzeachtertekstkleur: rgba(205, 205, 205, 100%);
+    --grijzebuttonkleur: rgba(96, 95, 95, 100%);
+
+}
+
+
+
 .sg-title {
-    font-size: 1.7rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 2000;
     color: #333;
-    margin: 1rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    margin: 10px;
+    font-family: "Nanum Brush Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase
 }
 
 .sg-subtitle {
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-bottom: solid 1px #aaa;
-    font-weight: 400;
+    font-weight: 2000;
     color: #666;
     text-transform: uppercase;
-    margin: 2rem 0 .5rem 0;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    margin: 20px;
+    font-family: "Nanum Brush Script", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.container {
+    font-family: "SimSun-ExtB", sans-serif;
+
+}
+
+.sg-subtitle-containers {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px
+}
+
+.container-kleur {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    width: 20vh;
+}
+
+.sg-subtitle p {
+    font-size: 0.8rem;
+}
+
+.sg-subtitle div {
+    margin: 1rem 1rem 0.2rem rem
+}
+
+.roodknophome {
+    background-color: rgb(255, 0, 0, 0.70);
+    height: 5rem;
+    width: 10rem;
+
+}
+
+.oranjeknophome {
+    background-color: rgb(244, 70, 17, 0.75);
+    height: 5rem;
+    width: 10rem
+}
+
+.geelknophome {
+    background-color: rgb(255, 255, 0, 0.70);
+    height: 5rem;
+    width: 10rem
+}
+
+.groenknophome {
+    background-color: rgb(0, 255, 0, 0.65);
+    height: 5rem;
+    width: 10rem
+}
+
+
+
+.blauwknophome {
+    background-color: rgba(0, 0, 255, 0.753);
+    height: 5rem;
+    width: 10rem
+}
+
+.indigoknophome {
+    background-color: rgba(111, 0, 255, 0.80);
+    height: 5rem;
+    width: 10rem
+}
+
+
+.violetknophome {
+    background-color: rgba(157, 0, 255, 0.80);
+    height: 5rem;
+    width: 10rem
+}
+
+
+
+.roodknophomehover {
+    background-color: rgba(255, 0, 0);
+    height: 5rem;
+    width: 10rem
+}
+
+.oranjeknophomehover {
+    background-color: rgba(244, 70, 17);
+    height: 5rem;
+    width: 10rem
+}
+
+.geelknophomehover {
+    background-color: rgba(255, 255, 0);
+    height: 5rem;
+    width: 10rem
+}
+
+.groenknophomehover {
+    background-color: rgba(0, 255, 0);
+    height: 5rem;
+    width: 10rem
+}
+
+.blauwknophomehover {
+    background-color: rgba(0, 0, 255);
+    height: 5rem;
+    width: 10rem
+}
+
+.indigoknophomehover {
+    background-color: rgba(111, 0, 255);
+    height: 5rem;
+    width: 10rem
+}
+
+.violetknophomehover {
+    background-color: rgba(157, 0, 255);
+    height: 5rem;
+    width: 10rem
+}
+
+.schaduwhome {
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 5rem;
+    width: 10rem
+}
+
+.achterextranav {
+    background-color: rgba(255, 255, 255, 0.418);
+    height: 5rem;
+    width: 10rem
+}
+
+.footerkleur {
+    background-color: rgba(101, 101, 101, 76%);
+    height: 5rem;
+    width: 10rem
+}
+
+.achterlogokleur {
+    background-color: rgba(112, 112, 112, 0.637);
+    height: 5rem;
+    width: 10rem
+}
+
+.achtercontactkleur {
+    background-color: rgba(111, 0, 255, 0.80);
+    height: 5rem;
+    width: 10rem
+}
+
+.rodeheaderkleur {
+    background-color: rgba(244, 70, 17, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.rodeachtergrondkleur {
+    background-color: rgba(111, 0, 255, 0.80);
+    height: 5rem;
+    width: 10rem
+}
+
+.rodeachtergrondtitelkleur {
+    background-color: rgba(243, 90, 54, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.rodebuttonkleur {
+    background-color: rgba(242, 55, 11, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.achterlogokleur2 {
+    background-color: rgba(255, 255, 255, 36%);
+    height: 5rem;
+    width: 10rem
+}
+
+.invulveldkleur {
+    background-color: rgba(255, 255, 255, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.geleheaderkleur {
+    background-color: rgba(255, 255, 0, 89%);
+    height: 5rem;
+    width: 10rem
+}
+
+.geleachtergrondkleur {
+    background-color: rgba(255, 255, 0, 37%);
+    height: 5rem;
+    width: 10rem
+}
+
+.gelebuttonkleur {
+    background-color: rgba(242, 242, 13, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.geleachtergrondtitelkleur {
+    background-color: rgba(242, 242, 13, 49%);
+    height: 5rem;
+    width: 10rem
+}
+
+.gelepijlkleur {
+    background-color: rgba(242, 245, 80, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.gelecardachtergrondkleur {
+    background-color: rgba(242, 242, 13, 49%);
+    height: 5rem;
+    width: 10rem
+}
+
+.gelecardtagkleur {
+    background-color: rgba(255, 255, 161, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.groeneheaderkleur {
+    background-color: rgba(0, 255, 0, 89%);
+    height: 5rem;
+    width: 10rem
+}
+
+.groeneachtergrondkleur {
+    background-color: rgba(51, 255, 51, 37%);
+    height: 5rem;
+    width: 10rem
+}
+
+.groenebuttonkleur {
+    background-color: rgba(51, 255, 51, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.groeneachtergrondtitelkleur {
+    background-color: rgba(65, 246, 65, 49%);
+    height: 5rem;
+    width: 10rem
+}
+
+.groeneagendakleur {
+    background-color: rgba(64, 246, 64, 35%);
+    height: 5rem;
+    width: 10rem
+}
+
+.groenebovenkantcardkleur {
+    background-color: rgba(0, 213, 0, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+
+.groeneachtergrondcardkleur {
+    background-color: rgba(110, 227, 110, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.groenepijlkleur {
+    background-color: rgba(37, 217, 37, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.groeneikneemmeekleur {
+    background-color: rgba(64, 155, 64, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.blauweheaderkleur {
+    background-color: rgba(0, 17, 255, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.blauweachtergrondkleur {
+    background-color: rgba(34, 48, 241, 40%);
+    height: 5rem;
+    width: 10rem
+}
+
+.blauwebuttonkleur {
+    background-color: rgba(0, 17, 255, 89%);
+    height: 5rem;
+    width: 10rem
+}
+
+.blauweachtertitelkleur {
+    background-color: rgba(94, 104, 235, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.blauwebovenkantcardkleur {
+    background-color: rgba(0, 12, 194, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.blauweachtergrondcardkleur {
+    background-color: rgba(91, 99, 228, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.blauwepijlkleur {
+    background-color: rgba(0, 11, 190, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.blauweikneemmeekleur {
+    background-color: rgba(0, 9, 147, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.indigoheaderkleur {
+    background-color: rgba(121, 32, 254, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.indigoachtergrondkleur {
+    background-color: rgba(34, 48, 241, 40%);
+    height: 5rem;
+    width: 10rem
+}
+
+.indigobuttonkleur {
+    background-color: rgba(121, 32, 254, 89%);
+    height: 5rem;
+    width: 10rem
+}
+
+.indigoachtertitelkleur {
+    background-color: rgba(121, 32, 254, 49%);
+    height: 5rem;
+    width: 10rem
+}
+
+.indigopijlkleur {
+    background-color: rgba(91, 20, 198, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.grijsheaderkleur {
+    background-color: rgba(137, 137, 137, 65%);
+    height: 5rem;
+    width: 10rem
+}
+
+.grijsachtergrondkleur {
+    background-color: rgba(228, 228, 228, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.grijzebovenkantcardkleur {
+    background-color: rgba(137, 137, 137, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.grijzeachtergrondcardkleur {
+    background-color: rgba(153, 153, 153, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.grijzeachtertitelkleur {
+    background-color: rgba(137, 137, 137, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.grijzecontactachtergrondkleur {
+    background-color: rgba(137, 137, 137, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.grijzeachtertekstkleur {
+    background-color: rgba(205, 205, 205, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.grijzebuttonkleur {
+    background-color: rgba(96, 95, 95, 100%);
+    height: 5rem;
+    width: 10rem
+}
+
+.indigoachtergrondkleur {
+    background-color: rgba(34, 48, 241, 40%);
+    height: 5rem;
+    width: 10rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TYPOGRAFIE */
+
+
+
+.eerstefont {
+    font-family: "Marvelous Sans Demo";
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px
+}
+
+.tweedefont {
+    font-family: "Nanum Brush Script";
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px
+}
+
+.derdefont {
+    font-family: "Microsoft Yi Baiti";
+    color: rgb(0, 0, 0);
+    margin-left: 20px
+}
+
+.vierdefont {
+    font-family: "SimSun-ExtB";
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    margin-left: 20px
+}
+
+/* KNOPPEN */
+.buttons {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    margin: 20px;
+
+}
+
+.button1,
+.button2,
+.button3,
+.button4,
+.button5,
+.button6,
+.button7,
+.button8,
+.button9,
+.button10 {
+    margin-top: 15px
+}
+
+.button1 {
+    background-color: var(--rodebutton);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--rodebutton)
+}
+
+.button1:hover {
+    font-size: 27px
+}
+
+.button2 {
+    background-color: var(--rodebutton);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--rodebutton)
+}
+
+.button2:hover {
+    font-size: 27px
+}
+
+.button3 {
+    background-color: var(--geelknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 45px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--geelknop)
+}
+
+.button3:hover {
+    font-size: 47px
+}
+
+.button3 {
+    background-color: var(--geelknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 45px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--geelknop)
+}
+
+.button3:hover {
+    font-size: 47px
+}
+
+.button4 {
+    background-color: var(--geelknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 45px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--geelknop)
+}
+
+.button4:hover {
+    font-size: 47px
+}
+
+.button5 {
+    background-color: var(--geelknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 40px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--geelknop)
+}
+
+.button5:hover {
+    font-size: 42px
+}
+
+.button6 {
+    background-color: var(--groenknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--groenknop)
+}
+
+.button6:hover {
+    font-size: 32px
+}
+
+.button7 {
+    background-color: var(--groenknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--groenknop)
+}
+
+.button7:hover {
+    font-size: 32px
+}
+
+.button8 {
+    background-color: var(--groenknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--groenknop)
+}
+
+.button8:hover {
+    font-size: 32px
+}
+
+.button9 {
+    background-color: var(--groeneagendakleur);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    width: 150px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 0px var(--groeneagendakleur)
+}
+
+.button9:hover {
+    font-size: 32px
+}
+
+.button10 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button10:hover {
+    font-size: 32px
+}
+
+.button11 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button11:hover {
+    font-size: 32px
+}
+
+.button12 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button12:hover {
+    font-size: 32px
+}
+
+.button13 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button13:hover {
+    font-size: 32px
+}
+
+.button14 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button14:hover {
+    font-size: 32px
+}
+
+.button15 {
+    background-color: var(--blauwknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--blauwknop);
+    margin-top: 15px
+}
+
+.button15:hover {
+    font-size: 32px
+}
+
+.button16 {
+    background-color: var(--indigoknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 40px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--indigoknop);
+    margin-top: 15px
+}
+
+.button16:hover {
+    font-size: 42px
+}
+
+.button17 {
+    background-color: var(--indigoknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 40px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--indigoknop);
+    margin-top: 15px
+}
+
+.button17:hover {
+    font-size: 42px
+}
+
+.button18 {
+    background-color: var(--violetknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--violetknop);
+    margin-top: 15px
+}
+
+.button18:hover {
+    font-size: 27px
+}
+
+.button19 {
+    background-color: var(--grijzeknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    text-transform: uppercase;
+    font-size: 25px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--grijzeknop);
+    margin-top: 15px
+}
+
+.button19:hover {
+    font-size: 27px
+}
+
+/* EINDE KNOPPEN*/
+
+/*FORMULIEREN*/
+h3{
+    font-size: 30px
+}
+.forms{
+    display:flex;
+    font-family: "Nanum Brush Script";
+    font-size: 20px
+}
+
+.inschrijven{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border:solid lightgrey 1px;
+    margin-right:50px; 
+    padding: 50px
+}
+
+.ouderraad{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border:solid lightgrey 1px;
+    margin-right:50px; 
+    padding: 50px
+}
+
+.afspraak{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border:solid lightgrey 1px;
+    margin-right:50px; 
+    padding: 50px
+}
+
+
+#uwnaam,#naamdochterzoon,#start,#mail,#tel,#wiepraten,#meeting-time{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.bullet{
+    text-align:center;
+}
+
+
+
+
+/* COMPONENTEN */
+
+p{
+    
+}
+.logo {
+    width: 30vw;
+    height: 15vh;
+    position: absolute;
+    margin-left: 50vw;
+    
+
+}
+
+.logo_head {
+    position: absolute;
+   
+
+    height: 20vh;
+    width: 30vw;
+    background-color: var(--achterlogo);
+    border-bottom-left-radius: 4vh;
+    margin-right: 0vh;
+    padding-left: 2vh;
+    padding-top: 2vh;
+    box-shadow: 1px 1px 5px var(--schaduwnav);
+    margin-bottom: 
+}
+
+.regenboog {
+    object-fit: scale-down;
+    min-width: 30%;
+    max-width: 80%;
+    height: 10vh auto;
+
+}
+
+
+.logo {
+    
+
+}
+
+.logo_body {
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    right: 0vh;
+    width:30vw ;
+    background-color:var(--achtercontact);
+    margin-top: 16vh;
+    
+    border-bottom-left-radius: 4vh; 
+    margin-right: 0vh;
+}
+
+.logo_fb,
+.logo_mail,
+.logo_gsm {
+
+    width: 4vw;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    right
+}
+
+
+footer {
+    font-family: "Microsoft Yi Baiti";
+    font-size: 15px;
+    color: var(--witfont);
+    text-align: center;
+    background-color: var(--footer)
+}
+
+.nav {
+    width: 35vw;
+    font-family: "Marvelous Sans Demo";
+    text-align: center;
+    line-height: 80px;
+
+}
+
+.nav>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_home,
+.nav_inschrijven,
+.nav_onzeschool,
+.nav_kleuterklas,
+.nav_lagereschool,
+.nav_activiteiten,
+.nav_contact {
+    height: 11.69vh;
+    text-shadow: 1px 1px 50px black;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px
+}
+
+.nav_home {
+    background: var(--roodhomepagina);
+    color: var(--witfont);
+
+
+}
+
+.nav_inschrijven {
+    background: var(--oranjehomepagina);
+    color: var(--witfont);
+}
+
+.nav_onzeschool {
+    background: var(--geelhomepagina);
+    color: var(--witfont);
+}
+
+.nav_kleuterklas {
+    background: var(--groenhomepagina);
+    color: var(--witfont);
+}
+
+.nav_lagereschool {
+    background: var(--blauwhomepagina);
+    color: var(--witfont);
+}
+
+.nav_activiteiten {
+    background: var(--indigohomepagina);
+    color: var(--witfont);
+}
+
+.nav_contact {
+    background: var(--violethomepagina);
+    color: var(--witfont);
+}
+
+
+.nav_home,
+.nav_inschrijven,
+.nav_onzeschool,
+.nav_kleuterklas,
+.nav_lagereschool,
+.nav_activiteiten,
+.nav_contact {
+    display: block;
+    font-size: 4vh;
+    font-weight: 700;
+    color: var(--witfont);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+.nav_home:hover {
+    background: var(--roodhomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh
+}
+
+.nav_inschrijven:hover {
+    background: var(--oranjehomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh
+}
+
+.nav_onzeschool:hover {
+    background: var(--geelhomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh
+}
+
+.nav_kleuterklas:hover {
+    background: var(--groenhomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh
+}
+
+.nav_lagereschool:hover {
+    background: var(--blauwhomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh
+}
+
+.nav_activiteiten:hover {
+    background: var(--indigohomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 41vw;
+    font-size: 7vh
+}
+
+.nav_contact:hover {
+    background: var(--violethomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 41vw;
+    font-size: 7vh
+}
+
+img{
+    width:100%
+}
+
+
+.foto{
+    height: 20vh; 
+    width: auto
+}
+
+.icoon{
+    height: 20vh; 
+    width: auto
 }

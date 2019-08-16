@@ -1,0 +1,416 @@
+:root {
+    /**
+     * Colour palette
+     */
+     --witfont: rgb(255, 255, 255);
+     --schaduwnav: rgba(0, 0, 0, 0.781);
+     --schaduwbutton:  rgba(0, 0, 0, 0.568);
+  
+     --roodhomepagina: rgb(255, 0, 0, 0.70);
+     --roodhomepaginahover: rgb(255, 0, 0);
+  
+     --oranjehomepagina: rgb(244, 70, 17, 0.75);
+     --oranjehomepaginahover: rgb(244, 70, 17);
+  
+     --geelhomepagina: rgb(255, 255, 0, 0.70);
+     --geelhomepaginahover: rgb(255, 255, 0);
+  
+     --groenhomepagina: rgb(0, 255, 0, 0.65);
+     --groenhomepaginahover: rgb(0, 255, 0);
+  
+     --blauwhomepagina: rgba(0, 0, 255, 0.753);
+     --blauwhomepaginahover: rgb(0, 0, 255);
+  
+     --indigohomepagina: rgba(111, 0, 255, 0.80);
+     --indigohomepaginahover: rgb(111, 0, 255);
+  
+     --violethomepagina: rgba(157, 0, 255, 0.80);
+     --violethomepaginahover: rgb(157, 0, 255);
+  
+     --achterextranav: rgba(255, 255, 255, 0.418);
+  
+     --footer: rgba(101, 101, 101, 76);
+  
+     --achterlogo: rgba(112, 112, 112, 0.637);
+  
+     --achtercontact: rgba(112, 112, 112, 0.418);
+  
+     --rodebutton:  rgba(242,55,11,100%);
+     --geelknop: rgb(242,242,13,100%);
+     --groenknop: rgb(51,255,51,100%);
+     --blauwknop: rgb(0,17,255,100%);
+     --groeneagendakleur: rgba(64, 246, 64, 0.541);
+     --indigoknop: rgb(121,32,254,89%);
+     --violetknop: rgb(138,46,205,100%);
+     --grijzeknop: rgb(96,95,95,100%);
+  
+  
+     --oranjeknophome:rgba(244,70,17,0.75);
+   --oranjeknophomehover:rgba(244,70,17);
+  
+   --geelknophome:rgba(255,255,0,0.7);
+   --geekknophomehover:rgba(255,255,0);
+   --geleheaderkleur:rgba(255,255,0,89%);
+   --geleachtergrondkleur:rgba(255,255,0,0.37);
+   --gelebuttonkleur:rgba(242,242,13,100%);
+   --geleachtergrondtitelkleur:rgba(242,242,13,49%);
+   --gelepijlkleur:rgba(245,245,80,100%);
+   --gelecardachtergrondkleur:rgba(242,242,13,49%);
+   --gelecardtagkleur:rgba(255,255,161,100%);
+  
+  
+   --groenknophome:rgba(0,255,0.065);
+   --groenknophomehover:rgba(0.255.0);
+   --groeneheaderkleur:rgba(0,255,0,89%);
+   --groeneachtergrondkleur:rgba(51,255,51,37%);
+   --groenebuttonkleur:rgba(51,255,51,100%);
+   --groenachtergrondtitelkleur:rgba(65,246,65,49%);
+   --groendagendakleur:rgba(64,246,64,35%);
+   --groenebovenkantcardkleur:rgba(0,213,0,100%);
+   --groeneachtergrondcardkleur:rgba(110,227,110,100%);
+   --groenepijlkleur:rgba(37,217,37,100%);
+   --groeneikneemmeekleur:rgba(64,155,64,100%);
+  
+  
+  
+   --blauwknophome:rgba(0,0,255,0.753);
+   --blauwknophomehover:rgba(0,0,255);
+   --blauweheaderkleur:rgba(0,17,255,100%);
+   --blauweachtergrondkleur:rgba(34,48,241,40%);
+   --blauwebuttonkleur:rgba(0,17,255,89%);
+   --blauweachtertitelkleur:rgba(94,104,235,100%);
+   --blauwebovenkantcardkleur:rgba(0,12,194,100%);
+   --blauweachtergrondcardkleur:rgba(91,99,228,100%);
+   --blauwepijlkleur:rgba(0,11,190,100%);
+   --blauweikneemmekleur:rgba(0,9,147,100%);
+  
+  
+  
+   --indigoknophome:rgba(111,0,255,0.8);
+   --indigoknophomehover:rgba(111,0,255);
+   --indigoheaderkleur:rgba(121,32,254,100%);
+   --indigoachtergrondkleur:rgba(34,48,241,40%);
+   --indigobuttonkleur:rgba(121,32,254,89%);
+   --indigoachtertitelkleur:rgba(121,32,254,49%);
+   --indigopijlkleur:rgba(91,20,198,100%);
+  
+  
+  
+   --violetknophome:rgba(157,0,255,0.8);
+   --violetknophomehover:rgba(157,0,255);
+  
+   --schaduwhome:rgba(0,0,0,0.568);
+  
+   --achterextranav:rgba(255,255,255,0.418);
+   
+   --footerkleur:rgba(101,101,101,0.76);
+  
+   --achterlogokleur:rgba(112,112,11,0.637);
+   --achtergrondlogokleur2:rgba(255,255,255,36%);
+  
+   --invulveldkleur:rgba(255,255,255,100%);
+  
+   --grijsheaderkleur:rgba(137,137,137,65%);
+   --grijsachtergrondkleur:rgba(228,228,228,100%);
+   --grijzebovenkantcardkleur:rgba(137,137,137,100%);
+   --grijzeachtergrondcardkleur:rgba(153,153,153,100%);
+   --grijzeachtertitelkleur:rgba(137,137,137,100%);
+   --grijzecontactachtergrondkleur:rgba(137,137,137,100%);
+   --grijzeachtertekstkleur:rgba(205,205,205,100%);
+   --grijzebuttonkleur:rgba(96,95,95,100%);
+  
+  
+  }
+
+
+*{
+    margin:0;
+    padding:0
+}
+
+body{
+    background-color: var(--groeneachtergrondkleur)
+}
+
+h1{
+    display: inline;
+    position: absolute;
+    top: 0vh; 
+    left: 10vw; 
+    font-family: "Marvelous sans demo"; 
+    font-size: 10vh; 
+    margin-top: 4vh; 
+    color:var(--witfont)
+    
+    
+}
+
+.header{
+
+    background-color: var(--groeneheaderkleur);
+    padding: 60px
+}
+
+
+
+
+
+
+.nav {
+    display:;
+    width: 5vw;
+    font-family: "Marvelous Sans Demo";
+    text-align: center;
+    line-height: 80px;
+
+}
+
+.nav>ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_home,
+.nav_inschrijven,
+.nav_onzeschool,
+.nav_kleuterklas,
+.nav_lagereschool,
+.nav_activiteiten,
+.nav_contact {
+    height: 11.69vh;
+    text-shadow: 1px 1px 50px black;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px
+}
+
+.nav_home {
+    background: var(--roodhomepagina);
+    color: var(--witfont);
+
+
+}
+
+.nav_inschrijven {
+    background: var(--oranjehomepagina);
+    color: var(--witfont);
+}
+
+.nav_onzeschool {
+    background: var(--geelhomepagina);
+    color: var(--witfont);
+}
+
+.nav_kleuterklas {
+    background: var(--groenhomepagina);
+    color: var(--witfont);
+}
+
+.nav_lagereschool {
+    background: var(--blauwhomepagina);
+    color: var(--witfont);
+}
+
+.nav_activiteiten {
+    background: var(--indigohomepagina);
+    color: var(--witfont);
+}
+
+.nav_contact {
+    background: var(--violethomepagina);
+    color: var(--witfont);
+}
+
+
+.nav_home,
+.nav_inschrijven,
+.nav_onzeschool,
+.nav_kleuterklas,
+.nav_lagereschool,
+.nav_activiteiten,
+.nav_contact {
+    display: block;
+    font-size: 4vh;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+.nav_home:hover {
+    background: var(--roodhomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh;
+    color: var(--witfont)
+}
+
+.nav_inschrijven:hover {
+    background: var(--oranjehomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh;
+    color: var(--witfont)
+}
+
+.nav_onzeschool:hover {
+    background: var(--geelhomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh;
+    color: var(--witfont)
+}
+
+.nav_kleuterklas:hover {
+    background: var(--groenhomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh;
+    color: var(--witfont)
+}
+
+.nav_lagereschool:hover {
+    background: var(--blauwhomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 45vw;
+    font-size: 7vh;
+    color: var(--witfont)
+}
+
+.nav_activiteiten:hover {
+    background: var(--indigohomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 41vw;
+    font-size: 7vh;
+    color: var(--witfont)
+}
+
+.nav_contact:hover {
+    background: var(--violethomepaginahover);
+    box-shadow: -2px 10px 10px var(--schaduwnav);
+    width: 41vw;
+    font-size: 7vh;
+    color: var(--witfont)
+}
+
+/* EINDE NAVIGATIE */
+
+
+/* LOGO */
+
+.logo {
+    width: 30vw;
+    height: 15vh;
+    position: absolute;
+    right: 0vh;
+    object-position: center;
+    top:0px
+
+}
+
+.logo_head {
+    position: absolute;
+    height: 14vh;
+    width: 20vw;
+    background-color: var(--achtergrondlogokleur2);
+    border-bottom-left-radius: 4vh;
+    margin-right: 0vh;
+    padding-left: 10vw;
+    padding-top: 0vh;
+    box-shadow: 1px 1px 5px var(--schaduwnav);
+    padding-bottom: 2vh; 
+    
+}
+
+.regenboog {
+    object-fit: scale-down;
+    min-width: 30%;
+    max-width: 50%;
+    height: 5vh auto;
+    margin-top: -15vh;
+    margin-left: 5vw
+
+    
+
+}
+
+main{
+    display:flex
+
+}
+
+
+.keuzemenu{
+    display: flex; 
+    flex-direction: column; 
+    padding:80px;
+}
+
+img{
+    margin-top: 20vh;
+    height: 50vh; 
+    width: auto;
+    border-radius: 20px
+    
+}
+
+.button6 {
+    background-color: var(--groenknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--groenknop)
+}
+
+.button6:hover {
+    font-size: 32px
+}
+
+.button7 {
+    background-color: var(--groenknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--groenknop)
+}
+
+.button7:hover {
+    font-size: 32px
+}
+
+.button8 {
+    background-color: var(--groenknop);
+    color: var(--witfont);
+    font-family: "Nanum Brush Script";
+    font-size: 30px;
+    width: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 1px 2px 5px var(--schaduwbutton);
+    border: solid 2px var(--groenknop)
+}
+
+.button8:hover {
+    font-size: 32px
+}
+/* FOOTER */
+
+
+footer {
+    font-family: "Microsoft Yi Baiti";
+    font-size: 15px;
+    color: var(--witfont);
+    text-align: center;
+    background-color: var(--footer)
+}
+
+/* EINDE FOOTER*/
